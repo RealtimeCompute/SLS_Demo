@@ -23,10 +23,9 @@ import org.apache.flink.util.Collector;
 import java.util.Properties;
 
 public class ConsumerSample {
-    //    private static final String SLS_ENDPOINT = "http://cn-shanghai-intranet.log.aliyuncs.com";
     private static final String SLS_ENDPOINT = "cn-shanghai.log.aliyuncs.com";
-    private static final String ACCESS_KEY_ID = "LTAIpULm4UPycy5l";
-    private static final String ACCESS_KEY_SECRET = "r0Hjw2ZenbVOnSA0ifQfOCcHrTtxGF";
+    private static final String ACCESS_KEY_ID = "XXXXX";
+    private static final String ACCESS_KEY_SECRET = "XXXXXX";
     private static final String SLS_PROJECT = "wzq-blink-test";
     private static final String SLS_LOGSTORE = "wzq-blink-test";
     //1、启动位点秒级的时间戳读取数据;2、读取全量加增量数据Consts.LOG_BEGIN_CURSOR;
